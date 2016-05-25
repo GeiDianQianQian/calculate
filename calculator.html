@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Grade Calculator</title>
+		<link href="css\calculator.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		<div class="bk-a">
+			<div class="bk-b" >
+				<h1>Grade Calculator</h1>
+				<div class="bk-c">
+					<p class="text-a">Activities</p>
+					<p class="text-b">Give grades to the numeric activities:</p>
+					<table class="table table-border table-bordered" style="width:963px;height:300px;" id="grade_table">
+						<thead class="text-c">
+							<tr>
+								<th style="width:25%;">Name</th>
+								<th style="width:25%;">Short Name</th>
+								<th style="width:25%;">Grade</th>
+								<th style="width:25%;">Percentage</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr class="text-d">
+								<td>Activity 1</td>
+								<td>A1</td>
+								<td style="vertical-align:bottom;">&nbsp<input class="text-f" id="ipt11" onkeyup="getPercentage(this)">/<input class="text-f" id="ipt21" onkeyup="getPercentage(this)" >&nbsp</td>
+								<td style="text-align:center;"></td>
+							</tr>
+							<tr class="text-d">
+								<td>Activity 2</td>
+								<td>A2</td>
+								<td style="vertical-align:bottom">&nbsp<input class="text-f" id="ipt12" onkeyup="getPercentage(this)">/<input class="text-f" id="ipt22" onkeyup="getPercentage(this)">&nbsp</td>
+								<td style="text-align:center;"></td>
+							</tr>
+							<tr class="text-d">
+								<td>Activity 3</td>
+								<td>A3</td>
+								<td style="vertical-align:bottom">&nbsp<input class="text-f" id="ipt13" onkeyup="getPercentage(this)">/<input class="text-f" id="ipt23" onkeyup="getPercentage(this)">&nbsp</td>
+								<td style="text-align:center;"></td>
+							</tr>
+							<tr class="text-d">
+								<td>Activity 4</td>
+								<td>A4</td>
+								<td style="vertical-align:bottom">&nbsp<input class="text-f" id="ipt14" onkeyup="getPercentage(this)">/<input class="text-f" id="ipt24" onkeyup="getPercentage(this)">&nbsp</td>
+								<td style="text-align:center;"></td>
+							</tr>
+							<tr class="text-e" height="58">
+								<td style="vertical-align:bottom"><b>TOTAL</b></td>
+								<td></td>
+								<td></td>
+								<td style="text-align:center;vertical-align:bottom"></td>
+							</tr>
+						</tbody>
+					</table>
+					<table style="width:965px;padding-top:70px;">
+					  <tr>
+						<td style="text-align:right;">
+							<input class="btn btn-success radius" style="border-radius:4px;width:90px;height:30px;" type="button" value="AVERAGE" onclick="getAverage();">
+							<input class="btn btn-success radius" style="border-radius:4px;width:90px;height:30px;" type="button" value="MEAN">
+						</td>
+					  </tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
+	 <script src="js/calculator.js"></script>
+</html>
