@@ -1,4 +1,8 @@
 # Cynthia
-1. When the pointer point into the button, the pointer will change into a hand and the button will change color
-2. After clicked the button, the button will change color and change from rounded rectangle into normal rectangle.
-3. when the space is or the divisor is 0, there is a sign to prompt。After click ok, the answer of average will be displayed
+This is a website for displaying a Grade Calculator. The features are as follow:
+  1. Users can input at most four activities grades
+  2. There are two buttons which can help users get average and mean of grades
+  3. When the pointer points to the button, it will change to a hand icon and the color of the button will be changed
+  4. After clicking the button, the button will change color and change from a rounded rectangle into a normal rectangle.
+  5. If divisor of the activity is 0, there will be a prompt warning. If users click "OK" button, the given answer will ignore the activity.
+  
